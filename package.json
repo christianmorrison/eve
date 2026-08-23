@@ -7,9 +7,9 @@
     "#evals/*": "./evals/*"
   },
   "scripts": {
-    "build": "eve build",
-    "dev": "eve dev",
-    "start": "eve start",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
     "typecheck": "tsc"
   },
   "dependencies": {
@@ -18,11 +18,16 @@
     "@vercel/connect": "0.8.0",
     "ai": "7.0.70",
     "eve": "^0.39.3",
+    "next": "^16.3.2",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "xlsx": "^0.18.5",
     "zod": "4.4.3"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
     "typescript": "7.0.2"
   }
 }
