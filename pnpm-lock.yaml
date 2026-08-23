@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@browserbasehq/eve':
         specifier: ^0.1.0
-        version: 0.1.0(eve@0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))
+        version: 0.1.0(eve@0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))
       '@composio/core':
         specifier: ^0.17.0
         version: 0.17.0(ws@8.21.3(bufferutil@4.1.0))(zod@4.4.3)
       '@vercel/connect':
         specifier: 0.8.0
-        version: 0.8.0(ai@7.0.70(zod@4.4.3))(eve@0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))
+        version: 0.8.0(ai@7.0.70(zod@4.4.3))(eve@0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))
       ai:
         specifier: 7.0.70
         version: 7.0.70(zod@4.4.3)
       eve:
-        specifier: ^0.39.3
-        version: 0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
+        specifier: ^0.44.3
+        version: 0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
       next:
         specifier: ^16.3.2
         version: 16.3.2(@opentelemetry/api@1.9.0)(@types/node@25.9.5)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -1077,8 +1077,8 @@ packages:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
 
-  eve@0.39.3:
-    resolution: {integrity: sha512-BQqxp+htxisijebDyGGcKdB00Rlw+hD+AqbDX/XzZ429/RLH/k33LRsKrTq7kKNIOQ5E9xQTY2gmph1ppCIS/A==}
+  eve@0.44.3:
+    resolution: {integrity: sha512-YepBrHWm2Ecf7kmlPwzNeljTkI+LesZ8vC1q8SKCjgog9tKaZxgyIms7S/R3a8vRoQ8gnAtZuZdxXZgD6eKZbA==}
     engines: {node: '>=24'}
     hasBin: true
     peerDependencies:
@@ -2146,11 +2146,11 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@browserbasehq/eve@0.1.0(eve@0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))':
+  '@browserbasehq/eve@0.1.0(eve@0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))':
     dependencies:
       '@browserbasehq/sdk': 2.16.0
       '@browserbasehq/stagehand': 3.7.0(zod@4.4.3)
-      eve: 0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
+      eve: 0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
       zod: 4.4.3
     transitivePeerDependencies:
       - '@cfworker/json-schema'
@@ -2609,12 +2609,12 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  '@vercel/connect@0.8.0(ai@7.0.70(zod@4.4.3))(eve@0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))':
+  '@vercel/connect@0.8.0(ai@7.0.70(zod@4.4.3))(eve@0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20))':
     dependencies:
       '@vercel/oidc': 3.8.4
     optionalDependencies:
       ai: 7.0.70(zod@4.4.3)
-      eve: 0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
+      eve: 0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20)
 
   '@vercel/oidc@3.1.0': {}
 
@@ -2841,7 +2841,7 @@ snapshots:
 
   etag@1.8.1: {}
 
-  eve@0.39.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20):
+  eve@0.44.3(@opentelemetry/api@1.9.0)(ai@7.0.70(zod@4.4.3))(aws4fetch@1.0.20):
     dependencies:
       ai: 7.0.70(zod@4.4.3)
       nitro: 3.0.260610-beta(aws4fetch@1.0.20)
