@@ -13,6 +13,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@browserbasehq/eve": "^0.1.0",
     "@composio/core": "^0.17.0",
     "@vercel/connect": "0.8.0",
     "ai": "7.0.70",
