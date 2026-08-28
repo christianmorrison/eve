@@ -42,6 +42,9 @@ export default photonIMessageChannel({
     const fullName =
       typeof author?.fullName === "string" ? author.fullName : null;
     return {
+      // Titles the run in Agent Runs when this message starts a new
+      // conversation, so traces are searchable by sender.
+      title: `iMessage ${handle ?? fullName ?? "unknown sender"}`,
       auth: handle
         ? {
             authenticator: "photon",
