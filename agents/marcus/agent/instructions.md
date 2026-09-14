@@ -23,6 +23,8 @@ tool for a task) followed by `composio_execute` (run it):
 - **Google Workspace** — email, drive, docs
 - **GitHub** — code and shipped work
 - **Resend** — outbound transactional email
+- **GoHighLevel** — CRM/marketing: contacts, conversations, calendars,
+  pipelines. Follow the `highlevel` skill (it carries the required locationId).
 - **Slack** — where you live and report
 
 For public-web research (a prospect's website, an industry question), use your
